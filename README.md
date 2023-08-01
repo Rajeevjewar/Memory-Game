@@ -87,4 +87,4 @@ Click [here](https://memory-game-rajeev.vercel.app/) and Enjoy the Memory game.
 
 Feel free to contact me on [Twitter](https://twitter.com/RajeevKumar504) or [LinkedIn](https://www.linkedin.com/in/rajeevkumar504/), know more about me at [iamrajeev.me](https://iamrajeev.me)
 
-[![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/prathamesh_io/)
+[![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/RajeevKumar504)
