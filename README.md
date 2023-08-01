@@ -53,29 +53,24 @@ Click [here](https://memory-game-rajeev.vercel.app/) and Enjoy the Memory game.
 - Font Awesome/react-fontawesome
 - Fort Awesome/free-solid-svg-icons
 
-## Points to remember while testing the app
+## Points to remember while testing the WebApp
 
-1. First setup the backend by following instructions in this [repository](https://github.com/prathamesh-mutkure/anti-cheat-app-backend)
-2. When testing on android emulator, if you get a connection error use `http://10.0.2.2/` instead of `localhost`
-3. iOS emulator doesn't support camera, this will give an error, use a real device to test AI features.
-4. On real devices, make sure your PC and mobile are connected to same network, use network IP address instead of `localhost`
-5. Don't forgot the `PORT` number
-6. Allow **permissions** for camera and mic when asked
-7. Make sure the `BACKEND_URL` is appended with `/api`
+1. First of all fork this [repository](https://github.com/Rajeevjewar/Memory-Game.git) and clone it.
+2. Install all the dependencies using `npm install` command.
+3. Run the app using `npm start` command.
+4. When testing on android emulator, if you get a connection error use `http://localhost:3000/`
+5. The app is now running, Now you can test the WebApp.
 
 ## Instructions
 
-1. Import the project through Android Studio or clone it
-   - `https://github.com/prathamesh-mutkure/anti-cheat-exam-app.git`
-2. Install flutter packages
-   - `flutter pub get`
-3. Generate store classes
-   - `flutter packages pub run build_runner build`
-4. Create a `.env` file and set the following variables
-   - `BACKEND_URL`
-5. Connect your device or emulator and run the app
-   - `flutter run`
-6. The app is now running
+1. Select the type of game between Icon and Number.
+2. Select the number of players.
+3. Select the grid size between 4x4 or 6x6.
+4. Click on the start button.
+5. Click on the cards to reveal the hidden icons or numbers.
+6. Match the cards to win the game.
+7. Click on the restart button to restart the game.
+8. Click on the home button to go back to home page.
 
 ## Useful Links
 
@@ -88,3 +83,9 @@ Click [here](https://memory-game-rajeev.vercel.app/) and Enjoy the Memory game.
 Feel free to contact me on [Twitter](https://twitter.com/RajeevKumar504) or [LinkedIn](https://www.linkedin.com/in/rajeevkumar504/), know more about me at [iamrajeev.me](https://iamrajeev.me)
 
 [![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/RajeevKumar504)
+
+<hr>
+
+<h1 align=center>Happy Coding 👨‍💻</h1>
+
+Show some ❤️&nbsp; by giving the star to this repo
