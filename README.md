@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Memory Game 🧠
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An entertaining Memory Game featuring two playful puzzles – numbers and icons. Enjoy this amusing game with 1 to 4 players, featuring both 4x4 and 6x6 grid challenges. Match hidden icons or numbers to win the game. Try it out now and test your memory skills!
 
-## Available Scripts
+Click [here](https://memory-game-rajeev.vercel.app/) and Enjoy the Memory game.
 
-In the project directory, you can run:
+<p align="center">  
+<img src="./public/preview.png"/>  
+</p>
 
-### `npm start`
+## Features and Interfaces
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Home page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   - Player can select the type of game between Icon and Number.
+   - Player can select the number of players.
+   - Single user can play game with computer logic.
+   - 4x4 and 6x6 grid challenges to make game more entertaining.
 
-### `npm test`
+2. Game Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - A grid of cards with hidden icons or numbers.
+   - A timer to show the time taken by the user to complete the game.
+   - A counter to show the total moves taken by the user to complete the game.
+   - A button to go back to home page.
 
-### `npm run build`
+   - A button to restart the game.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - ![image](./public/preview2.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Winner Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - A Greet message to the winner.
+   - Time taken by the user to complete the game.
+   - Total moves taken by the user to complete the game.
+   - A button to play again.
+   - A button to go back to home page.
 
-### `npm run eject`
+   - ![image](./public/preview3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React.Js
+- JavaScript
+- React-DOM
+- User Events
+- Redux
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Other Tools
 
-## Learn More
+- Font Awesome/react-fontawesome
+- Fort Awesome/free-solid-svg-icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Points to remember while testing the app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. First setup the backend by following instructions in this [repository](https://github.com/prathamesh-mutkure/anti-cheat-app-backend)
+2. When testing on android emulator, if you get a connection error use `http://10.0.2.2/` instead of `localhost`
+3. iOS emulator doesn't support camera, this will give an error, use a real device to test AI features.
+4. On real devices, make sure your PC and mobile are connected to same network, use network IP address instead of `localhost`
+5. Don't forgot the `PORT` number
+6. Allow **permissions** for camera and mic when asked
+7. Make sure the `BACKEND_URL` is appended with `/api`
 
-### Code Splitting
+## Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Import the project through Android Studio or clone it
+   - `https://github.com/prathamesh-mutkure/anti-cheat-exam-app.git`
+2. Install flutter packages
+   - `flutter pub get`
+3. Generate store classes
+   - `flutter packages pub run build_runner build`
+4. Create a `.env` file and set the following variables
+   - `BACKEND_URL`
+5. Connect your device or emulator and run the app
+   - `flutter run`
+6. The app is now running
 
-### Analyzing the Bundle Size
+## Useful Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Project Demo](https://memory-game-rajeev.vercel.app/) for Web version
 
-### Making a Progressive Web App
+- [Project Repository](https://github.com/Rajeevjewar/Memory-Game.git)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Need help?
 
-### Advanced Configuration
+Feel free to contact me on [Twitter](https://twitter.com/RajeevKumar504) or [LinkedIn](https://www.linkedin.com/in/rajeevkumar504/), know more about me at [iamrajeev.me](https://iamrajeev.me)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/prathamesh_io/)
