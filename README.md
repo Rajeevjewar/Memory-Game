@@ -1,4 +1,4 @@
-# Memory Game 🧠
+<h1 align="center">🧠 Memory Game 🎮</h1>
 
 An entertaining Memory Game featuring two playful puzzles – numbers and icons. Enjoy this amusing game with 1 to 4 players, featuring both 4x4 and 6x6 grid challenges. Match hidden icons or numbers to win the game. Try it out now and test your memory skills!
 
@@ -74,18 +74,16 @@ Click [here](https://memory-game-rajeev.vercel.app/) and Enjoy the Memory game.
 
 ## Useful Links
 
-- [Project Demo](https://memory-game-rajeev.vercel.app/) for Web version
+- [Project Demo](https://memory-game-rajeev.vercel.app/) for Web version.
 
 - [Project Repository](https://github.com/Rajeevjewar/Memory-Game.git)
 
 ## Need help?
 
-Feel free to contact me on [Twitter](https://twitter.com/be_rajeevkumar) or [LinkedIn](https://www.linkedin.com/in/berajeevkumar/), know more about me at [iamrajeev.me](https://iamrajeev.me)
+Feel free to contact me on [Twitter](https://twitter.com/be_rajeevkumar) or [LinkedIn](https://www.linkedin.com/in/berajeevkumar/), know more about me at my [Portfolio](https://iamrajeev.me).
 
 [![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/be_rajeevkumar)
 
 <hr>
 
 <h1 align=center>Happy Coding 👨‍💻</h1>
-
-Show some ❤️&nbsp; by giving the star to this repo
